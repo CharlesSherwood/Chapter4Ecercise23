@@ -44,7 +44,7 @@ int main()
         {
             double Pi = 3.14159;
             double Radius;
-            cout << "Please Enter the radius of the circle:";
+            cout << "Please Enter the radius of the Circle:";
             cin >> Radius;
             while (Radius<=0)
             {
@@ -60,14 +60,14 @@ int main()
         case 2: 
         {
             double Length,Width;
-            cout << "Please enter the length of the rectangle:";
+            cout << "Please enter the length of the Rectangle:";
             cin >> Length;
             while (Length <= 0)
             {
                 cout << "Enter A Valid Numebr:";
                 cin >> Length;
             }
-            cout << "Please enter the Width of the rectangle:";
+            cout << "Please enter the Width of the Rectangle:";
             cin >> Width;
             while (Width<= 0)
             {
